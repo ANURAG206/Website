@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+
+}
+nav{font-family: 'Ubuntu', sans-serif;
+    width: 100vw;
+    
+    
+}
+#upperNav{
+    background-color:#d8232a;
+    color:#fff;
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Ubuntu',sans-serif;
+    align-items: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0px 20px;}
+#upperNav>div>a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color:#fff;
+    font-size: 15px;
+     padding: 7px;}
+#upperNav>div>button{
+    border:none;
+    border-radius: 20px;
+    padding:5px 20px;
+    background-color: #fff;
+    color: #000;}
+#lowerNav{
+    gap: 20px;
+    display:flex;
+    height: 40px;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.3); }
+#lowerNav>a{
+    color:#000;
+    font-size: 20px;
+    text-decoration: none;
+    margin:0px 20px;
+    font-family: 'Ubuntu',sans-serif;
+   
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0);
+}
+#lowerNav>a:hover,
+#upperNav>div>a:hover{
+    color:red;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgba(128, 128, 128, 0.3); }
+#upperNav>div>a:hover{
+    background-color: #fff;
+    border-radius: 10px;}
